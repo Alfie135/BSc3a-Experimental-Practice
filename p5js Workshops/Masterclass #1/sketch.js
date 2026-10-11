@@ -17,7 +17,7 @@ function setup() {
 
 function placeShape(event) {
   console.log(event);
-  let buttonCircle = new Circle(event.detail.x, event.detail.y, random(20, 100), event.detail.colour, random(2000, 10000), random(-2, 2), random(-2, 2));
+  let buttonCircle = new Triangle(event.detail.x, event.detail.y, random(20, 100), event.detail.colour, random(2000, 10000), random(-2, 2), random(-2, 2));
   allShapes.push(buttonCircle);
 };
 
