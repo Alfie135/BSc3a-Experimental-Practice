@@ -1,12 +1,20 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"tmx",
+         "target":"scene1map.tmx"
+        }
+    },
  "height":10,
  "infinite":false,
  "layers":[
         {
          "data":[19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 12, 0, 0, 0, 0,
-            20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 37, 0, 0, 0, 0,
-            33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 45, 0, 0, 0, 0,
-            19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 55, 0, 0, 0, 0, 0, 0,
+            20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 0, 10, 0, 0, 0,
+            33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0,
+            19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 55, 0, 0, 0, 10, 0, 0,
             22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 0, 20, 0, 0, 0, 0, 0, 0,
             34, 0, 0, 0, 0, 18, 26, 13, 0, 0, 0, 0, 54, 37, 0, 25, 0, 0, 0, 0, 0, 31,
             27, 0, 0, 18, 0, 0, 37, 0, 0, 0, 0, 0, 44, 45, 0, 0, 0, 0, 0, 31, 0, 17,
@@ -22,9 +30,111 @@
          "width":22,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":2,
+         "name":"Pickups",
+         "objects":[
+                {
+                 "height":0,
+                 "id":1,
+                 "name":"",
+                 "opacity":1,
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":833.333333333333,
+                 "y":545.454545454545
+                }, 
+                {
+                 "height":0,
+                 "id":2,
+                 "name":"",
+                 "opacity":1,
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2487.87878787879,
+                 "y":712.121212121212
+                }, 
+                {
+                 "height":0,
+                 "id":3,
+                 "name":"",
+                 "opacity":1,
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2236.36363636364,
+                 "y":839.393939393939
+                }, 
+                {
+                 "height":0,
+                 "id":4,
+                 "name":"",
+                 "opacity":1,
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2751.51515151515,
+                 "y":587.878787878788
+                }, 
+                {
+                 "height":0,
+                 "id":5,
+                 "name":"",
+                 "opacity":1,
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1987.87878787879,
+                 "y":327.272727272727
+                }, 
+                {
+                 "height":0,
+                 "id":6,
+                 "name":"",
+                 "opacity":1,
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":960.606060606061,
+                 "y":1072.72727272727
+                }, 
+                {
+                 "height":0,
+                 "id":7,
+                 "name":"",
+                 "opacity":1,
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2109.09090909091,
+                 "y":493.939393939394
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":2,
- "nextobjectid":1,
+ "nextlayerid":3,
+ "nextobjectid":11,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.12.1",
