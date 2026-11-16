@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 247285938}
   - component: {fileID: 247285937}
   m_Layer: 0
-  m_Name: New VFX 1
+  m_Name: RocketFumeEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -471,7 +471,7 @@ Transform:
   m_GameObject: {fileID: 247285936}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.386, y: 0, z: 3.722}
+  m_LocalPosition: {x: 5.65, y: 0.232, z: 3.764}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -762,7 +762,7 @@ GameObject:
   - component: {fileID: 1797173670}
   - component: {fileID: 1797173669}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: RocketEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5581,8 +5581,8 @@ Transform:
   m_GameObject: {fileID: 1797173668}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: -0, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 5.596, y: 0.332, z: 3.771}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5673,13 +5673,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04138186, y: -0.6206342, z: 0.032829314, w: 0.78231895}
-  m_LocalPosition: {x: 8.524, y: 1.101, z: 2.825}
+  m_LocalRotation: {x: 0.01890635, y: -0.9637057, z: 0.10390543, w: -0.24518874}
+  m_LocalPosition: {x: 1.64, y: 1.046, z: 8.317}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 6.056, y: -76.852, z: 0}
+  m_LocalEulerAnglesHint: {x: 11.011, y: -209.042, z: -5.108}
 --- !u!114 &1823688468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5879,6 +5879,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6b915e5601f816347adf38f69ac74649, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d47c3975bfd2a245a476af256c94ab3, type: 2}
     - target: {fileID: 919132149155446097, guid: 6b915e5601f816347adf38f69ac74649, type: 3}
       propertyPath: m_Name
       value: fighter
